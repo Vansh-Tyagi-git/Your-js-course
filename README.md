@@ -13,7 +13,7 @@ Practice & Projects: Apply your knowledge with mini-projects like calculators, g
 </details>
 
 # Get Started
-Lets Begin https://github.com/Vansh-Tyagi-git/Your-js-course/Biginners-js-course/lesson-01/1a  
+Lets Begin [https://github.com/Vansh-Tyagi-git/Your-js-course/Biginners-js-course/lesson-01/1a](https://github.com/Vansh-Tyagi-git/Your-js-course/tree/Vansh-Tyagi-git-patch-1/Beginners-js-course/lesson-01/1a)  
 
 Lets Advance https://github.com/Vansh-Tyagi-git/Your-js-course/  
 
