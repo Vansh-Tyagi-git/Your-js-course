@@ -1,0 +1,7 @@
+Lesson 01 - 1a: Introduction to JavaScript
+
+Theory:
+JavaScript is a programming language used to make web pages interactive. The line console.log("Hello, JavaScript!"); prints a message to the browser's console.
+
+Function of code:
+- Prints "Hello, JavaScript!" to the console.

@@ -1,0 +1,7 @@
+Lesson 01 - 1b: Variables
+
+Theory:
+Variables are containers for storing data. Use 'let' to declare a variable.
+
+Function of code:
+- Declares a variable 'message' and prints its value to the console.
