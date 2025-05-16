@@ -1,0 +1,1 @@
+You can add numbers using +. This code adds 5 and 3 and prints the result.

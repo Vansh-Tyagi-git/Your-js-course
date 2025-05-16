@@ -1,0 +1,1 @@
+localStorage.getItem(key) gets data back from the browser. Use it to remember things for the user.

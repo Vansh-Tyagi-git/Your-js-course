@@ -1,0 +1,2 @@
+Some values are "truthy" (act like true), others are "falsy" (act like false).
+0, "", null, undefined, NaN are falsy. Most others are truthy.

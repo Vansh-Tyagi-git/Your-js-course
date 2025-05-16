@@ -1,0 +1,1 @@
+Use for...in to loop through all properties of an object.

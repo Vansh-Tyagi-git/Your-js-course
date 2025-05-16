@@ -1,0 +1,1 @@
+? : is a shortcut for if-else. If age >= 18, result is "Adult", else "Child".

@@ -1,0 +1,1 @@
+typeof tells you the type of a value (number, string, boolean, etc).

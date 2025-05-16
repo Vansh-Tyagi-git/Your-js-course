@@ -1,0 +1,2 @@
+Backticks ` ` let you use variables inside strings easily.
+${name} puts the variable's value in the string.

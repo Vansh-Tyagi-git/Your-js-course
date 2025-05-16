@@ -1,0 +1,1 @@
+You can check if an input is empty before using it.

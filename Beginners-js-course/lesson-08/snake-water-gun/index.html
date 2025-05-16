@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake-Water-Gun Game (With Score Tracking)</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 20px; }
+    button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    #stats { margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Snake-Water-Gun Game</h2>
+  <p>Choose one option. The computer will choose too. Can you beat it?</p>
+  <button onclick="play('snake')">Snake Ì∞ç</button>
+  <button onclick="play('water')">Water Ì≤ß</button>
+  <button onclick="play('gun')">Gun Ì¥´</button>
+  
+  <div id="result" style="margin:15px 0; font-size:1.2em;"></div>
+  
+  <div id="stats">
+    <h3>Scores (Saved even if you close the browser):</h3>
+    <p>Wins: <span id="wins">0</span></p>
+    <p>Losses: <span id="losses">0</span></p>
+    <p>Ties: <span id="ties">0</span></p>
+    <button onclick="resetStats()" style="background: #ff4444; color: white;">Reset All Scores</button>
+  </div>
+
+  <script>
+    // Load saved scores or start fresh
+    let gameStats = JSON.parse(localStorage.getItem('swgStats')) || { wins: 0, losses: 0, ties: 0 };
+    updateDisplay();
+
+    // Main game function
+    function play(userChoice) {
+      const choices = ['snake', 'water', 'gun'];
+      const computerChoice = choices[Math.floor(Math.random() * 3)];
+      let result = '';
+
+      // Game rules
+      if (userChoice === computerChoice) {
+        result = "Tie! Both chose " + userChoice;
+        gameStats.ties++;
+      } else if (
+        (userChoice === 'snake' && computerChoice === 'water') ||
+        (userChoice === 'water' && computerChoice === 'gun') ||
+        (userChoice === 'gun' && computerChoice === 'snake')
+      ) {
+        result = "You win! Computer chose " + computerChoice;
+        gameStats.wins++;
+      } else {
+        result = "You lose! Computer chose " + computerChoice;
+        gameStats.losses++;
+      }
+
+      // Save and update
+      localStorage.setItem('swgStats', JSON.stringify(gameStats));
+      updateDisplay();
+      document.getElementById('result').innerHTML = "<strong>" + result + "</strong>";
+    }
+
+    // Reset scores
+    function resetStats() {
+      gameStats = { wins: 0, losses: 0, ties: 0 };
+      localStorage.setItem('swgStats', JSON.stringify(gameStats));
+      updateDisplay();
+      document.getElementById('result').textContent = 'Scores reset!';
+    }
+
+    // Update the numbers on the page
+    function updateDisplay() {
+      document.getElementById('wins').textContent = gameStats.wins;
+      document.getElementById('losses').textContent = gameStats.losses;
+      document.getElementById('ties').textContent = gameStats.ties;
+    }
+  </script>
+</body>
+</html>

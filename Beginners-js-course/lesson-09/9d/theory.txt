@@ -1,0 +1,1 @@
+If your variable name and property name are the same, you can write it once in an object.

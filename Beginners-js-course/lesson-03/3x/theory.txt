@@ -1,0 +1,1 @@
+You learned how to use <script> in HTML, basic HTML attributes, and practiced important JavaScript concepts.

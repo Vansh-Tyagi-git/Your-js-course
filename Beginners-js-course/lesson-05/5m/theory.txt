@@ -1,0 +1,1 @@
+The browser shows your HTML content as a web page. You can click buttons, enter text, and see results instantly.

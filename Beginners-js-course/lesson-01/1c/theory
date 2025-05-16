@@ -1,0 +1,2 @@
+Variables store information. Use 'let' to create a variable.
+This code creates a variable called 'name' and prints it.

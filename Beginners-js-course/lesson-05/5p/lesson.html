@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiplication Calculator</title>
+</head>
+<body>
+  <input type="number" id="a" placeholder="Number 1">
+  <input type="number" id="b" placeholder="Number 2">
+  <button onclick="multiply()">Multiply</button>
+  <p id="product"></p>
+  <script>
+    function multiply() {
+      let a = Number(document.getElementById('a').value);
+      let b = Number(document.getElementById('b').value);
+      let product = a * b;
+      document.getElementById('product').innerText = "Product: " + product;
+      alert("Product: " + product);
+    }
+  </script>
+</body>
+</html>

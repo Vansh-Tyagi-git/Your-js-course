@@ -1,0 +1,2 @@
+JavaScript has a Math object with helpful methods.
+Math.round() rounds a number to the nearest whole number.

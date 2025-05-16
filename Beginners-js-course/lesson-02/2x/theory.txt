@@ -1,0 +1,1 @@
+!! turns a value into true or false.

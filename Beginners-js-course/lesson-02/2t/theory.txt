@@ -1,0 +1,1 @@
+You can use JavaScript to change HTML content using getElementById and innerHTML.

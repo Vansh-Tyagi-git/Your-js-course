@@ -1,0 +1,1 @@
+setAttribute() changes an attribute (like src or alt). getAttribute() reads it.

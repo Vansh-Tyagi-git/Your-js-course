@@ -1,0 +1,1 @@
+You learned how to use HTML and JavaScript to make interactive web pages, games, and tools. Open your HTML files in a browser to see them in action!

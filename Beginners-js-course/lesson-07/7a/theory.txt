@@ -1,0 +1,1 @@
+The Math object provides math functions and constants, like random numbers, PI, and square roots.

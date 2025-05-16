@@ -1,0 +1,1 @@
+document.body.innerHTML lets you change all the HTML inside the body. Be careful: it replaces everything!

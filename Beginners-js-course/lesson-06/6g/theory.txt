@@ -1,0 +1,1 @@
+Inside a method, this refers to the object itself. It lets you use other properties of the same object.

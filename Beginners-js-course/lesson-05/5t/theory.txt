@@ -1,0 +1,1 @@
+You can disable a button with JavaScript by setting disabled = true.

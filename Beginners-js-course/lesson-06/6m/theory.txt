@@ -1,0 +1,1 @@
+Object.freeze() makes an object read-only. You can't change its properties.

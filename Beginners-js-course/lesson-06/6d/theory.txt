@@ -1,0 +1,1 @@
+You can change an object's property by assigning a new value.

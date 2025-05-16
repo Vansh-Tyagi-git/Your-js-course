@@ -1,0 +1,1 @@
+|| means "or". If at least one side is true, the result is true.

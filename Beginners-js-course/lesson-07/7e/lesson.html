@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Calculator Using Object</h2>
+  <input type="number" id="a" placeholder="Number 1">
+  <input type="number" id="b" placeholder="Number 2">
+  <button onclick="showSum()">Add</button>
+  <p id="result"></p>
+  <script>
+    // Calculator object with add method
+    const calculator = {
+      add: function(x, y) {
+        return x + y;
+      }
+    };
+    function showSum() {
+      let a = Number(document.getElementById('a').value);
+      let b = Number(document.getElementById('b').value);
+      let sum = calculator.add(a, b);
+      document.getElementById('result').innerText = "Sum: " + sum;
+      alert("Sum: " + sum);
+    }
+  </script>
+</body>
+</html>

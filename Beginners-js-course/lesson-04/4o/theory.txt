@@ -1,0 +1,1 @@
+You can put a function inside another function. The inner function can only be used inside the outer one.

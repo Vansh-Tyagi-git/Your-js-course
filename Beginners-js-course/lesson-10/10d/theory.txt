@@ -1,0 +1,1 @@
+querySelectorAll() returns all elements matching a selector as a NodeList (like an array).

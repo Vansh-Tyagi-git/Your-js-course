@@ -1,0 +1,1 @@
+This is a simple calculator that adds two numbers. Enter numbers and click Add to see the result on the page and in an alert.

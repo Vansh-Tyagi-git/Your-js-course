@@ -1,0 +1,1 @@
+The <button> tag creates a clickable button. The onclick attribute runs JavaScript when the button is clicked.

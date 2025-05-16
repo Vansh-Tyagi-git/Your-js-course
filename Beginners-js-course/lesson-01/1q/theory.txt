@@ -1,0 +1,2 @@
+.toUpperCase() makes all letters big.
+.toLowerCase() makes all letters small.

@@ -1,0 +1,1 @@
+eval('...') lets you run a string as JavaScript code. It's powerful but can be dangerous if used with user input. Use it carefully!

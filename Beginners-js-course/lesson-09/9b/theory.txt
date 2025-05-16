@@ -1,0 +1,1 @@
+AutoBoxing: When you use a method on a primitive (like "hello".length), JS wraps it in an object temporarily so you can use methods.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Quiz App Using Object</h2>
+  <p>What is 2 + 2?</p>
+  <input type="number" id="answer">
+  <button onclick="check()">Check</button>
+  <p id="result"></p>
+  <script>
+    // Quiz object
+    const quiz = {
+      question: "What is 2 + 2?",
+      correct: 4,
+      checkAnswer: function(ans) {
+        return ans == this.correct;
+      }
+    };
+    function check() {
+      let ans = Number(document.getElementById('answer').value);
+      let correct = quiz.checkAnswer(ans);
+      let msg = correct ? "Correct!" : "Try again!";
+      document.getElementById('result').innerText = msg;
+      alert(msg);
+    }
+  </script>
+</body>
+</html>

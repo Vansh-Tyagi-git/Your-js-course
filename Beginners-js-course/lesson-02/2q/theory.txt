@@ -1,0 +1,1 @@
+The onclick attribute runs JavaScript when you click the button.

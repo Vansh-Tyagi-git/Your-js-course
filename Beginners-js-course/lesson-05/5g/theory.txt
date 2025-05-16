@@ -1,0 +1,1 @@
+A form collects user input. Use <input> for text boxes and <button type="submit"> to submit.

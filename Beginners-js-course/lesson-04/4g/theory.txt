@@ -1,0 +1,1 @@
+A do-while loop runs code at least once, then keeps going if the condition is true.

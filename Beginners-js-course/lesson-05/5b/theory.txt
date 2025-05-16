@@ -1,0 +1,1 @@
+The <input> tag creates a text box for user input. The placeholder shows a hint.

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>What is 2 + 2?</p>
+  <input type="number" id="answer">
+  <button onclick="check()">Check</button>
+  <p id="result"></p>
+  <script>
+    function check() {
+      let ans = document.getElementById('answer').value;
+      if (ans == 4) {
+        document.getElementById('result').innerText = "Correct!";
+        alert("Correct!");
+      } else {
+        document.getElementById('result').innerText = "Try again!";
+        alert("Try again!");
+      }
+    }
+  </script>
+</body>
+</html>

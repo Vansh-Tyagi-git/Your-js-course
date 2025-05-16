@@ -1,0 +1,1 @@
+A greeting page that uses input, button, and alert.

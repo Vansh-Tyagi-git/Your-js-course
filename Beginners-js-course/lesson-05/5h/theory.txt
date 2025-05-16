@@ -1,0 +1,1 @@
+You can combine class and title to style and add tooltips to elements.

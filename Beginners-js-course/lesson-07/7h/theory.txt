@@ -1,0 +1,1 @@
+This Snake-Water-Gun game uses an object to organize choices and the play method.

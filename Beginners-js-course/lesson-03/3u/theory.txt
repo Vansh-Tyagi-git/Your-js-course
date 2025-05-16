@@ -1,0 +1,1 @@
+You can get a letter by its place (index) in the string. The first letter is at 0.

@@ -1,0 +1,1 @@
+You can use variables in logic checks.

@@ -1,0 +1,1 @@
+To run HTML files, open them in a web browser. You will see your buttons, text, and games as a real web page.

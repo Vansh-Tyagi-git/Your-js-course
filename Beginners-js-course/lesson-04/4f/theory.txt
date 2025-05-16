@@ -1,0 +1,1 @@
+A while loop repeats code as long as a condition is true.

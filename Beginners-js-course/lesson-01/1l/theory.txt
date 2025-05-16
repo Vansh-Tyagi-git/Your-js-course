@@ -1,0 +1,1 @@
+Variables can store numbers, text (strings), or true/false (booleans).

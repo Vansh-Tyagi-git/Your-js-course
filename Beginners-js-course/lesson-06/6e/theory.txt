@@ -1,0 +1,1 @@
+You can add a new property or delete one using the delete keyword.

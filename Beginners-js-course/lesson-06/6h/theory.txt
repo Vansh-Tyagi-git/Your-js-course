@@ -1,0 +1,1 @@
+Objects can have other objects as properties. This is called nesting.

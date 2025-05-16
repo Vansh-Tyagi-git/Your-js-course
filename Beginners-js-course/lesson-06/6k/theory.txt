@@ -1,0 +1,1 @@
+Object.keys(obj) gives an array of property names. Object.values(obj) gives an array of values.

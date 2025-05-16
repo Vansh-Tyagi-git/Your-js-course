@@ -1,0 +1,1 @@
+You can store objects in an array to keep a list of similar items.

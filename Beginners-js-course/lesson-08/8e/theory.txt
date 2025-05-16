@@ -1,0 +1,1 @@
+This game remembers your last result using localStorage. When you reload, it shows your last game outcome.

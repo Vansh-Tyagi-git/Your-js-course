@@ -1,0 +1,1 @@
+Functions can take inputs called parameters. Here, 'name' is a parameter.

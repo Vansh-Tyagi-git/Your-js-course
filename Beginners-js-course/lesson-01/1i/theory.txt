@@ -1,0 +1,2 @@
+Use a backslash \ to add special characters.
+\" lets you use double quotes inside a string.

@@ -1,0 +1,1 @@
+JSON.stringify() turns a JavaScript object or array into a JSON string. Useful for storing and sending data.

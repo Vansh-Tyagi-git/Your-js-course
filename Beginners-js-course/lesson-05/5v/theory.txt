@@ -1,0 +1,1 @@
+A simple counter that goes up by 1 each time you click the button.

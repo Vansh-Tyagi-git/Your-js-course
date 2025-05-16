@@ -1,0 +1,1 @@
+A variable declared outside functions is global and can be used anywhere.

@@ -1,0 +1,1 @@
+let and const are new ways to make variables. Use let if value can change, const if it can't. var is old.

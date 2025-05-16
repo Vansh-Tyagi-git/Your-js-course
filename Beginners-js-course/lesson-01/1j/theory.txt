@@ -1,0 +1,1 @@
+\n makes a new line in a string.

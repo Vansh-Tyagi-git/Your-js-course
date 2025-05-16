@@ -1,0 +1,1 @@
+You can compare strings with === or ==.

@@ -1,0 +1,1 @@
+Comparisons like === give true or false.

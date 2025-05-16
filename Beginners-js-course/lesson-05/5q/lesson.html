@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input type="text" id="username" placeholder="Username">
+  <button onclick="check()">Check</button>
+  <script>
+    function check() {
+      let u = document.getElementById('username').value;
+      if (u === "") {
+        alert("Please enter a username.");
+      } else {
+        alert("Welcome, " + u + "!");
+      }
+    }
+  </script>
+</body>
+</html>

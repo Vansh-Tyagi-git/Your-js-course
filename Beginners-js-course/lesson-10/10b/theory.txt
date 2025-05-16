@@ -1,0 +1,1 @@
+element.innerText lets you change only the text inside an element, not the HTML.

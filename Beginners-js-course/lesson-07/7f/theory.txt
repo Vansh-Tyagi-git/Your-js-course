@@ -1,0 +1,1 @@
+This greeting app uses an object for the greet method.

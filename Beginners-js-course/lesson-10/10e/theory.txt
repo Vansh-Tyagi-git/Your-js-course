@@ -1,0 +1,1 @@
+getElementById() finds an element by its unique id.

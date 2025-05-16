@@ -1,0 +1,1 @@
+A for loop repeats code a set number of times. It has a start, a condition, and a step.

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Greeting App Using Object</h2>
+  <input type="text" id="name" placeholder="Your name">
+  <button onclick="greet()">Greet</button>
+  <p id="msg"></p>
+  <script>
+    // Greeter object
+    const greeter = {
+      greet: function(name) {
+        return "Hello, " + name + "!";
+      }
+    };
+    function greet() {
+      let name = document.getElementById('name').value;
+      let message = greeter.greet(name);
+      document.getElementById('msg').innerText = message;
+      alert(message);
+    }
+  </script>
+</body>
+</html>

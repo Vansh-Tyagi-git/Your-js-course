@@ -1,0 +1,1 @@
+=== checks value and type (strict). == checks only value (loose).

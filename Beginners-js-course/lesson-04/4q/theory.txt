@@ -1,0 +1,1 @@
+forEach is a special loop for arrays. It runs a function for each item.

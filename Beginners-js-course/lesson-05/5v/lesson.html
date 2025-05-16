@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p id="counter">0</p>
+  <button onclick="increment()">Add 1</button>
+  <script>
+    let count = 0;
+    function increment() {
+      count++;
+      document.getElementById('counter').innerText = count;
+      alert('Count is now ' + count);
+    }
+  </script>
+</body>
+</html>

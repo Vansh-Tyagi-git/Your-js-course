@@ -1,0 +1,1 @@
+The class attribute lets you style or select elements in HTML.

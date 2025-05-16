@@ -1,0 +1,1 @@
+null means empty value. undefined means no value assigned yet.

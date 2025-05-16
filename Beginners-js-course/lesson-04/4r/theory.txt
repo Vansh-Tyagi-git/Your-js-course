@@ -1,0 +1,1 @@
+You can give a default value to a function parameter.

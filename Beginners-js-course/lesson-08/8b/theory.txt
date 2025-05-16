@@ -1,0 +1,1 @@
+JSON.parse() turns a JSON string back into a JavaScript object or array.

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>JavaScript String Object</h2>
+  <button onclick="showString()">Show String Methods</button>
+  <script>
+    function showString() {
+      let str = "JavaScript";
+      let msg = "";
+      msg += "Length: " + str.length + "\n";
+      msg += "Uppercase: " + str.toUpperCase() + "\n";
+      msg += "First 4 letters: " + str.substring(0,4);
+      alert(msg);
+    }
+  </script>
+</body>
+</html>

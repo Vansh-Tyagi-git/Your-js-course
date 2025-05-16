@@ -1,0 +1,1 @@
+You can get values from an object using dot notation (object.key) or bracket notation (object['key']).

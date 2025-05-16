@@ -1,0 +1,1 @@
+A function is a block of code that does a specific task. You can "call" a function to run its code.

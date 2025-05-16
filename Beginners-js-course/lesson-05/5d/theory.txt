@@ -1,0 +1,1 @@
+The class attribute lets you style elements with CSS or select them with JavaScript.

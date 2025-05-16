@@ -1,0 +1,1 @@
+You learned about booleans, logic, typeof, &&, ||, ===, truthy/falsy, and HTML basics like onclick, class, and title.

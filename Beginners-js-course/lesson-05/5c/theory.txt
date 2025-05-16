@@ -1,0 +1,1 @@
+The <p> tag is used for paragraphs of text.

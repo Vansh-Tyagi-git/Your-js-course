@@ -1,0 +1,1 @@
+Booleans are true/false values. Here, we show a boolean in an alert.

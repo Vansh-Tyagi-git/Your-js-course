@@ -1,0 +1,1 @@
+You can also use single quotes ' ' for strings.

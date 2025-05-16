@@ -1,0 +1,1 @@
+null means "no value" (set by you). undefined means "not set" (not given a value yet). Both are different!

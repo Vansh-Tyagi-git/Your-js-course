@@ -1,0 +1,1 @@
+You can create new elements with document.createElement() and add them to the page with appendChild().

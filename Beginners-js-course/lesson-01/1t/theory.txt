@@ -1,0 +1,1 @@
+Math.max() finds the biggest number. Math.min() finds the smallest.

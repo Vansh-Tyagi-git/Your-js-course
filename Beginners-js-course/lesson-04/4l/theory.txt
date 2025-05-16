@@ -1,0 +1,1 @@
+Variables declared with let are only available inside the block where they are defined.

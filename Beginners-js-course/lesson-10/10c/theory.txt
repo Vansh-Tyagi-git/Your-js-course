@@ -1,0 +1,1 @@
+querySelector() finds the first element that matches a CSS selector. querySelectorAll() finds all matches.

@@ -1,0 +1,1 @@
+Destructuring lets you quickly pull properties from an object into variables.

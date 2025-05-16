@@ -1,0 +1,1 @@
+Booleans are true or false values. They help us answer yes/no questions.

@@ -1,0 +1,1 @@
+localStorage.setItem(key, value) saves data in the browser. Data stays even after you close the tab.

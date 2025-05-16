@@ -1,0 +1,1 @@
+You learned about functions (how to make and use them), loops (for, while, do-while), and scope (where variables can be used).

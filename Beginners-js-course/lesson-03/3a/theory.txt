@@ -1,0 +1,1 @@
+The <script> tag lets you write or link JavaScript inside an HTML file. Code inside <script> runs when the page loads.

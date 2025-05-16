@@ -1,0 +1,1 @@
+You can store a function in a variable. This is called a function expression.

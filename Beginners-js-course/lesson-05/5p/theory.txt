@@ -1,0 +1,1 @@
+A simple calculator for multiplying two numbers. Enter numbers and click Multiply.

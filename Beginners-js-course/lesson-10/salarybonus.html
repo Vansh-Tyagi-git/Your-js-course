@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Salary Bonus Checker</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    input { padding: 8px; font-size: 1em; }
+    #result { margin-top: 15px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h2>Enter Your Salary</h2>
+  <input type="number" id="salary" placeholder="Type your salary and press Enter">
+  <div id="result"></div>
+
+  <script>
+    // Listen for keyup event on the input
+    document.getElementById('salary').addEventListener('keyup', function(event) {
+      if (event.key === 'Enter') { // Check if Enter was pressed
+        let salary = Number(this.value);
+        let message = "";
+        if (salary > 1000) {
+          let bonus = salary * 0.2;
+          let total = salary + bonus;
+          message = "Salary is greater than 1000. Bonus: " + bonus + ". Total: " + total;
+        } else {
+          message = "No bonus. Salary: " + salary;
+        }
+        document.getElementById('result').textContent = message;
+      }
+    });
+  </script>
+</body>
+</html>

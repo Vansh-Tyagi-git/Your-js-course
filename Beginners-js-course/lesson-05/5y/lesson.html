@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input type="text" id="name" placeholder="Your name">
+  <button onclick="greet()">Greet</button>
+  <p id="message"></p>
+  <script>
+    function greet() {
+      let name = document.getElementById('name').value;
+      let msg = "Hello, " + name + "!";
+      document.getElementById('message').innerText = msg;
+      alert(msg);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+The onchange attribute runs JavaScript when the input changes and you press Enter or leave the box.
