@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f9f9f9;
+  margin: 30px;
+}
+h2 {
+  color: #2c3e50;
+}
+#content {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ddd;
+}
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+input, select {
+  padding: 6px;
+  margin: 4px 0;
+}
+.table {
+  border-collapse: collapse;
+}
+.table td, .table th {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+}
+.highlight {
+  background: #ffeaa7;
+}

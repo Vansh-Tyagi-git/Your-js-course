@@ -1,0 +1,7 @@
+body {
+  background: #fafafa;
+  transition: background 0.5s;
+}
+.changed-bg {
+  background: #b3e5fc;
+}
